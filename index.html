@@ -4,16 +4,72 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="application/ld+json">
+			{
+			  "@context": "https://schema.org",
+			  "@type": "Photographer",
+			  "name": "Nina Carducci",
+			  "address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200",
+				"addressCountry": "France"
+			  },
+			  "telephone": "+33 2 23 45 67 89",
+			  "openingHours": "Mo-Fr 10:00-18:00",
+			  "areaServed": "Bordeaux",
+			  "priceRange": "$$$"
+			}
+			</script>
+	<script type="application/ld+json">
+			  {
+				"@context": "https://schema.org",
+				"@type": "LocalBusiness",
+				"name": "Nina Carducci: Photographe professionnelle à Bordeaux",
+				"telephone": "+33 2 23 45 67 89",
+				"priceRange": "100€ - 500€",
+				"address": {
+				  "@type": "PostalAddress",
+				  "streetAddress": "68 avenue Alsace-Lorraine",
+				  "addressLocality": "Bordeaux",
+				  "postalCode": "33200",
+				  "addressCountry": "France"
+				},
+				"geo": {
+				  "@type": "GeoCoordinates",
+				  "latitude": 44.8466732,
+				  "longitude": -0.6065805
+				},
+				"openingHoursSpecification": [
+				  {
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+					  "Monday",
+					  "Tuesday",
+					  "Wednesday",
+					  "Thursday",
+					  "Friday"
+					],
+					"opens": "10:00",
+					"closes": "18:00"
+				  }
+				],
+				"aggregateRating": {
+				  "@type": "AggregateRating",
+				  "ratingValue": "4.5",
+				  "reviewCount": "123"
+				}
+			  }
+			  </script>
 	<meta name="description"
 		content="Site officiel de Nina Carducci, photographe spécialisée dans les portraits, mariages, concerts et entreprises.">
 	<meta name="author" content="Nina Carducci">
-	<meta name="description" content="Instagram - Nina Carducci Photographe" />
-	<link rel="canonical" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" />
 	<meta property="og:locale" content="fr_FR" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Instagram" />
+	<meta property="og:title" content="Instagram">
+	<meta property="og:description" content="Instagram - Nina Carducci Photographe">
 	<meta property="og:url" content="https://www.instagram.com/ninacarducci.photo/?hl=fr" />
-	<meta property="og:site_name" content="Instagram Nina Carducci Photographe" />
 	<title>Nina Carducci - Photographe</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,8 +85,11 @@
 </head>
 
 <body>
-	<header class="top-header">
-		<h1 class="name">Nina Carducci</h1>
+	<a id="haut"></a>
+	<header id="haut" class="top-header">
+		<a href="#haut">
+			<h1 class="name">Nina Carducci</h1>
+		</a>
 		<nav class="nav">
 			<ul>
 				<li><a href="#about">À propos</a></li>
@@ -80,8 +139,8 @@
 		</div>
 	</section>
 	<section id="about">
-		<div class="picture left">
-			<img src="./assets/images/nina-carducci-portrait.webp" alt="Portrait de Nina Carducci">
+		<div class="picture">
+			<img src="./assets/images/nina-carducci-portrait.webp" alt="Portrait de Nina Carducci" width="550" height="550" loading="lazy">
 		</div>
 		<div id="about-me">
 			<h2>A propos de moi</h2>
@@ -111,7 +170,7 @@
 			<button class="filter-button" data-filter="portrait">Portrait</button>
 		</div>
 		<div class="container">
-			<div id="lightgallery" class="gallery">
+			<div id="lightgallery" class="gallery" loading="lazy">
 				<a href="./assets/images/gallery/concerts/nina-carducci-concert-foule.webp" data-lg-size="1920-1280"
 					data-src="./assets/images/gallery/concerts/nina-carducci-concert-foule.webp" class="gallery-item"
 					data-tags="concert">
@@ -235,22 +294,22 @@
 				<h3>Une question ? Une demande de devis ?</h3>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 				<form action="" method="post">
-					<label>Nom</label>
-					<input type="text" name="nom" id="nom">
-					<label>Email</label>
+					<label for="username">Nom</label>
+					<input type="text" name="nom" id="username">
+					<label for="email">Email</label>
 					<input type="email" name="email" id="email">
-					<label>Message</label>
+					<label for="message">Message</label>
 					<textarea name="message" id="message" cols="30" rows="10"></textarea>
 					<input type="submit" value="Envoyer" />
 				</form>
 			</div>
-			<div class="picture right">
-				<img src="./assets/images/nina-carducci-camera.webp" alt="">
+			<div class="picture">
+				<img src="./assets/images/nina-carducci-camera.webp" alt="" loading="lazy">
 			</div>
 		</div>
 	</section>
 	<footer>
-		<div class="footer_left">
+		<div class="footer-left">
 			<ul>
 				<li>Nina Carducci</li>
 				<li>Photographe professionnelle</li>
@@ -259,7 +318,7 @@
 				<li>Du lundi au vendredi de 10 h à 19 h</li>
 			</ul>
 		</div>
-		<div class="footer_right">
+		<div class="footer-right">
 			<p>© 2024 Nina Carducci</p>
 		</div>
 	</footer>

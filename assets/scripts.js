@@ -1,7 +1,7 @@
 function init() {
    
         lightGallery(document.getElementById('lightgallery'), {
-            licenseKey: '0000-0000-000-0000',
+            licenseKey: '4BD7E1F7-9327-4F15-BFB9-D0D28113A93A',
         });
     
         const filterButtons = document.querySelectorAll('.filter-button');
