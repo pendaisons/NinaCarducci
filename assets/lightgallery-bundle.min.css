@@ -1,0 +1,222 @@
+@font-face {
+    font-family: lg;
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.8.1/fonts/lg.woff2?io9a6k) format("woff2"), url(https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.8.1/fonts/lg.ttf?io9a6k) format("truetype"), url(https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.8.1/fonts/lg.woff?io9a6k) format("woff"), url(https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.8.1/fonts/lg.svg?io9a6k#lg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block
+}
+
+.lg-icon {
+    font-family: lg !important;
+    speak: never;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.lg-container {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+.lg-next,
+.lg-prev {
+    background-color: rgba(0, 0, 0, .45);
+    border-radius: 2px;
+    color: #999;
+    cursor: pointer;
+    display: block;
+    font-size: 22px;
+    margin-top: -10px;
+    padding: 8px 10px 9px;
+    position: absolute;
+    top: 50%;
+    z-index: 1084;
+    outline: 0;
+    border: none
+}
+
+.lg-next:hover:not(.disabled),
+.lg-prev:hover:not(.disabled) {
+    color: #fff
+}
+
+.lg-next {
+    right: 20px
+}
+
+.lg-next:before {
+    content: "\e095"
+}
+
+.lg-prev {
+    left: 20px
+}
+
+.lg-prev:after {
+    content: "\e094"
+}
+
+@-webkit-keyframes lg-right-end {
+    0% {
+        left: 0
+    }
+
+    50% {
+        left: -30px
+    }
+
+    100% {
+        left: 0
+    }
+}
+
+@-moz-keyframes lg-right-end {
+    0% {
+        left: 0
+    }
+
+    50% {
+        left: -30px
+    }
+
+    100% {
+        left: 0
+    }
+}
+
+@-ms-keyframes lg-right-end {
+    0% {
+        left: 0
+    }
+
+    50% {
+        left: -30px
+    }
+
+    100% {
+        left: 0
+    }
+}
+
+@keyframes lg-right-end {
+    0% {
+        left: 0
+    }
+
+    50% {
+        left: -30px
+    }
+
+    100% {
+        left: 0
+    }
+}
+
+@-webkit-keyframes lg-left-end {
+    0% {
+        left: 0
+    }
+
+    50% {
+        left: 30px
+    }
+
+    100% {
+        left: 0
+    }
+}
+
+@-moz-keyframes lg-left-end {
+    0% {
+        left: 0
+    }
+
+    50% {
+        left: 30px
+    }
+
+    100% {
+        left: 0
+    }
+}
+
+@-ms-keyframes lg-left-end {
+    0% {
+        left: 0
+    }
+
+    50% {
+        left: 30px
+    }
+
+    100% {
+        left: 0
+    }
+}
+
+@keyframes lg-left-end {
+    0% {
+        left: 0
+    }
+
+    50% {
+        left: 30px
+    }
+
+    100% {
+        left: 0
+    }
+}
+
+.lg-icon:focus-visible {
+    color: #fff;
+    border-radius: 3px;
+    outline: 1px dashed rgba(255, 255, 255, .6)
+}
+
+@keyframes lg-play-stroke {
+    0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0
+    }
+
+    50% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35px
+    }
+
+    100% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -124px
+    }
+}
+
+@keyframes lg-play-rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+.lg-container {
+    display: none;
+    outline: 0
+}
+
+.lg-next,
+.lg-prev {
+    opacity: 0;
+    will-change: transform, opacity;
+    -webkit-transition: -webkit-transform .25s cubic-bezier(0, 0, .25, 1) 0s, opacity .25s cubic-bezier(0, 0, .25, 1) 0s;
+    -moz-transition: -moz-transform .25s cubic-bezier(0, 0, .25, 1) 0s, opacity .25s cubic-bezier(0, 0, .25, 1) 0s;
+    -o-transition: -o-transform .25s cubic-bezier(0, 0, .25, 1) 0s, opacity .25s cubic-bezier(0, 0, .25, 1) 0s;
+    transition: transform .25s cubic-bezier(0, 0, .25, 1) 0s, opacity .25s cubic-bezier(0, 0, .25, 1) 0s
+}
+
+.lg-container {
+    display: none
+}

@@ -1,20 +1,20 @@
 body {
 	max-width: 1920px;
-	margin: auto;
+	margin: auto
 }
 
 * {
-	font-family: 'Inter';
-	font-style: normal;
+	font-family: Inter;
+	font-style: normal
 }
 
 #haut a {
 	text-decoration: none;
-	color: #000;
+	color: #000
 }
 
 .top-header {
-	background-color: white;
+	background-color: #fff;
 	position: sticky;
 	top: 0;
 	z-index: 1000;
@@ -22,24 +22,24 @@ body {
 	justify-content: space-between;
 	padding-inline: 100px;
 	padding-block: 30px;
-	align-items: center;
+	align-items: center
 }
 
 .top-header .name {
 	font-size: 26px;
-	white-space: nowrap;
+	white-space: nowrap
 }
 
 .nav ul {
 	display: flex;
 	list-style-type: none;
 	font-size: 14px;
-	margin-bottom: 0;
+	margin-bottom: 0
 }
 
 .nav li {
 	padding-inline: 10px;
-	white-space: nowrap;
+	white-space: nowrap
 }
 
 .nav a {
@@ -48,41 +48,41 @@ body {
 }
 
 .social-link img {
-	width: 20px;
+	width: 20px
 }
 
 #about {
 	display: flex;
 	align-items: center;
 	gap: 30px;
-	background-color: #F6D2B8;
+	background-color: #f6d2b8;
 	padding-inline: 100px;
-	padding-block: 100px;
+	padding-block: 100px
 }
 
 #about-me h2,
 h3,
 p {
-	margin: 0;
+	margin: 0
 }
 
 #about-me {
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	gap: 20px
 }
 
 .introduction {
 	font-size: 16px;
-	font-family: "Spectral";
+	font-family: Spectral;
 	font-weight: 800;
 	font-style: italic;
-	width: 80%;
+	width: 80%
 }
 
 .filter-buttons {
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 30px
 }
 
 .filter-button {
@@ -93,39 +93,39 @@ p {
 	margin: 5px;
 	cursor: pointer;
 	font-size: 1rem;
-	border-radius: 5px;
+	border-radius: 5px
 }
 
 .filter-button:hover {
-	background-color: #555;
+	background-color: #555
 }
 
 .filter-button.active {
-	background-color: #beb45a;
+	background-color: #beb45a
 }
 
 .gallery-item.hidden {
-	display: none;
+	display: none
 }
 
 #gallery h2 {
 	text-align: center;
 	font-size: 2rem;
-	margin: 20px;
+	margin: 20px
 }
 
 .container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: center
 }
 
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 20px;
-	justify-content: center;
+	justify-content: center
 }
 
 .gallery-item img {
@@ -133,53 +133,53 @@ p {
 	height: 250px;
 	cursor: pointer;
 	border-radius: 10px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .1)
 }
 
 .gallery-item:hover {
-	opacity: 0.8;
+	opacity: .8
 }
 
 .quote {
 	margin-top: 40px;
 	text-align: center;
 	font-style: italic;
-	color: #777;
+	color: #777
 }
 
 .quote-text {
 	font-family: Spectral;
 	font-style: italic;
-	font-weight: 300;
+	font-weight: 300
 }
 
 .quote-author {
 	font-family: Spectral;
 	font-weight: 800;
-	font-size: 22px;
+	font-size: 22px
 }
 
 #services {
 	margin: auto;
-	background-color: #A8D5D8;
-	position: relative;
+	background-color: #a8d5d8;
+	position: relative
 }
 
 #services h2 {
 	margin: 0;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 10px
 }
 
 #services .container {
 	flex-direction: row;
 	justify-content: space-between;
 	display: flex;
-	padding: 30px;
+	padding: 30px
 }
 
 .service {
-	background-color: white;
+	background-color: #fff;
 	max-width: 390px;
 	width: 30%;
 	height: 337px;
@@ -187,15 +187,15 @@ p {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	z-index: 1;
+	z-index: 1
 }
 
 #quote {
-	font-family: "Spectral";
+	font-family: Spectral;
 	font-style: italic;
 	width: 70%;
 	margin: auto;
-	padding-block: 3em;
+	padding-block: 3em
 }
 
 #contact {
@@ -208,30 +208,30 @@ p {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	gap: 30px;
+	gap: 30px
 }
 
 #contact .container img {
 	width: 100%;
-	height: auto;
+	height: auto
 }
 
 .picture {
 	width: 100%;
 	height: 100%;
 	flex: 1;
-	z-index: 1;
+	z-index: 1
 }
 
 .form-container {
 	flex: 2;
-	white-space: nowrap;
+	white-space: nowrap
 }
 
 form {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: flex-start
 }
 
 form input {
@@ -239,7 +239,7 @@ form input {
 	background-color: transparent;
 	border: solid 1px;
 	height: 2.5em;
-	margin-bottom: 20px;
+	margin-bottom: 20px
 }
 
 form textarea {
@@ -249,25 +249,25 @@ form textarea {
 	height: 5em;
 	line-height: 2.5em;
 	font-size: 1.2em;
-	margin-bottom: 20px;
+	margin-bottom: 20px
 }
 
-input[type="submit"] {
+input[type=submit] {
 	background-color: #beb45a;
-	padding: 0.5em 1em;
+	padding: .5em 1em
 }
 
 footer {
 	background-color: #5f5826;
-	color: white;
+	color: #fff;
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-between
 }
 
 footer .footer-left {
 	width: 100%;
-	padding: 2em;
+	padding: 2em
 }
 
 .footer-left ul {
@@ -276,7 +276,7 @@ footer .footer-left {
 	list-style-type: none;
 	flex-direction: column;
 	margin: 0;
-	padding: 0;
+	padding: 0
 }
 
 footer .footer-right {
@@ -285,35 +285,34 @@ footer .footer-right {
 	justify-content: center;
 	align-items: center;
 	padding: 2em;
-	width: 100%;
+	width: 100%
 }
 
 .footer-right p {
 	margin: 0;
 	padding: 0;
-	text-align: center;
+	text-align: center
 }
 
-@media all and (max-width: 1000px) {
-
+@media all and (max-width:1000px) {
 	#about {
-		flex-direction: column;
+		flex-direction: column
 	}
 
 	.picture {
 		width: auto;
 		height: auto;
 		flex: 1;
-		z-index: 1;
+		z-index: 1
 	}
 
 	.picture img {
 		width: 100%;
-		height: auto;
+		height: auto
 	}
 
 	#services .container {
-		flex-direction: column;
+		flex-direction: column
 	}
 
 	.service {
@@ -324,15 +323,15 @@ footer .footer-right {
 	}
 
 	.service-description {
-		margin-bottom: 1em;
+		margin-bottom: 1em
 	}
 
 	#contact .container {
-		flex-direction: column;
+		flex-direction: column
 	}
 
 	#contact .picture {
-		margin-top: 1em;
+		margin-top: 1em
 	}
 
 	.form-container {
@@ -340,50 +339,48 @@ footer .footer-right {
 		flex-direction: column;
 		align-items: center;
 		width: 100%;
-		gap: 10px;
+		gap: 10px
 	}
 
 	.form-container h3,
-	p,
-	form {
-		width: 100%;
+	form,
+	p {
+		width: 100%
 	}
 }
 
-@media all and (max-width: 650px) {
+@media all and (max-width:650px) {
 	.top-header {
 		flex-direction: column;
-		padding-inline: 0;
+		padding-inline: 0
 	}
 
 	.top-header .nav,
 	.top-header .nav ul {
 		width: 100%;
-		padding: 0 0 0 0;
+		padding: 0
 	}
 
 	.top-header .nav li {
 		flex: 1;
 		padding-block: 1em;
-		text-align: center;
+		text-align: center
 	}
 
-
-
 	#services .container {
-		align-items: center;
+		align-items: center
 	}
 
 	.service {
-		max-width: 90%;
+		max-width: 90%
 	}
 
 	#about,
 	#contact {
-		padding-block: 2em;
+		padding-block: 2em
 	}
 
 	form {
-		width: 100%;
+		width: 100%
 	}
 }
