@@ -295,6 +295,7 @@ footer .footer-right {
 }
 
 @media all and (max-width:1000px) {
+
 	#about {
 		flex-direction: column
 	}
