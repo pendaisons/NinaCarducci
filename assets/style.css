@@ -51,6 +51,10 @@ body {
 	width: 20px
 }
 
+.visually-hidden {
+	background-color: #595959;
+}
+
 #about {
 	display: flex;
 	align-items: center;
