@@ -51,6 +51,19 @@ body {
 	width: 20px
 }
 
+.visually-hidden {
+    color: #000 !important;
+    background: transparent !important;
+}
+
+.sr-only {
+    position: fixed;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
 #about {
 	display: flex;
 	align-items: center;
