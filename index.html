@@ -5,70 +5,94 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci - Photographe professionnelle à Bordeaux",
+		  "description": "Photographe professionnelle spécialisée en portraits, mariages et événements à Bordeaux.",
+		  "telephone": "+33 2 23 45 67 89",
+		  "priceRange": "100€ - 800€",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "FR"
+		  },
+		  "geo": {
+			"@type": "GeoCoordinates",
+			"latitude": 44.8466732,
+			"longitude": -0.6065805
+		  },
+		  "openingHoursSpecification": [
 			{
-			  "@context": "https://schema.org",
-			  "@type": "Photographer",
-			  "name": "Nina Carducci",
-			  "address": {
-				"@type": "PostalAddress",
-				"streetAddress": "68 avenue Alsace-Lorraine",
-				"addressLocality": "Bordeaux",
-				"postalCode": "33200",
-				"addressCountry": "France"
-			  },
-			  "telephone": "+33 2 23 45 67 89",
-			  "openingHours": "Mo-Fr 10:00-18:00",
-			  "areaServed": "Bordeaux",
-			  "priceRange": "$$$"
+			  "@type": "OpeningHoursSpecification",
+			  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+			  "opens": "10:00",
+			  "closes": "18:00"
 			}
-			</script>
-	<script type="application/ld+json">
-			  {
-				"@context": "https://schema.org",
-				"@type": "LocalBusiness",
-				"name": "Nina Carducci: Photographe professionnelle à Bordeaux",
-				"telephone": "+33 2 23 45 67 89",
-				"priceRange": "100€ - 500€",
-				"address": {
-				  "@type": "PostalAddress",
-				  "streetAddress": "68 avenue Alsace-Lorraine",
-				  "addressLocality": "Bordeaux",
-				  "postalCode": "33200",
-				  "addressCountry": "France"
-				},
-				"geo": {
-				  "@type": "GeoCoordinates",
-				  "latitude": 44.8466732,
-				  "longitude": -0.6065805
-				},
-				"openingHoursSpecification": [
-				  {
-					"@type": "OpeningHoursSpecification",
-					"dayOfWeek": [
-					  "Monday",
-					  "Tuesday",
-					  "Wednesday",
-					  "Thursday",
-					  "Friday"
-					],
-					"opens": "10:00",
-					"closes": "18:00"
-				  }
-				],
-				"aggregateRating": {
-				  "@type": "AggregateRating",
-				  "ratingValue": "4.5",
-				  "reviewCount": "123"
-				}
-			  }
-			  </script>
+		  ],
+		  "makesOffer": [
+			{
+			  "@type": "Offer",
+			  "name": "Séance photo portrait",
+			  "price": "150€",
+			  "priceCurrency": "EUR"
+			},
+			{
+			  "@type": "Offer",
+			  "name": "Reportage mariage",
+			  "price": "600€",
+			  "priceCurrency": "EUR"
+			},
+			{
+			  "@type": "Offer",
+			  "name": "Shooting entreprise",
+			  "price": "300€",
+			  "priceCurrency": "EUR"
+			}
+		  ],
+		  "aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "4.8",
+			"reviewCount": "150"
+		  },
+		  "review": [
+			{
+			  "@type": "Review",
+			  "author": {
+				"@type": "Person",
+				"name": "Marie Dupont"
+			  },
+			  "reviewRating": {
+				"@type": "Rating",
+				"ratingValue": "5"
+			  },
+			  "reviewBody": "Super expérience avec Nina ! Les photos de notre mariage sont magnifiques."
+			},
+			{
+			  "@type": "Review",
+			  "author": {
+				"@type": "Person",
+				"name": "Thomas Bernard"
+			  },
+			  "reviewRating": {
+				"@type": "Rating",
+				"ratingValue": "4.5"
+			  },
+			  "reviewBody": "Très professionnelle et à l'écoute. Je recommande vivement."
+			}
+		  ]
+		}
+		</script>
 	<meta name="description"
 		content="Site officiel de Nina Carducci, photographe spécialisée dans les portraits, mariages, concerts et entreprises.">
 	<meta name="author" content="Nina Carducci">
 	<meta property="og:locale" content="fr_FR" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Site Nina Carducci - Photographe" />
-	<meta property="og:description" content="Découvrez le travail de Nina Carducci, photographe spécialisée en portraits, mariages et concerts.">
+	<meta property="og:description"
+		content="Découvrez le travail de Nina Carducci, photographe spécialisée en portraits, mariages et concerts.">
 	<meta property="og:url" content="https://www.instagram.com/ninacarducci.photo/?hl=fr" />
 	<title>Nina Carducci - Photographe</title>
 	<link rel="stylesheet" href="./assets/font.css">
